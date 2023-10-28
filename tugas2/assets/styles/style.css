@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  scroll-behavior: smooth;
+  background-image: url(./assets/image/symphony.png); 
+  background-color: rgb(233, 233, 233);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color:rgb(238, 66, 66);
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+ 
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  
+}
+
+aside {
+  float: right;
+  padding-left: 20px;
+  width: 25%;
+}
+
+footer {
+  padding: 20px;
+  color: #fff;
+  background-color:rgb(238, 66, 66) ;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+}
+
+.box-info {
+  text-align: left;
+  font-size: 16px;
+}
+
+
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+header{
+  background: rgb(238, 66, 66);
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo title{
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all .6s ease 0s;   
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  max-width: -100px;
+  max-height: 100px;
+}
+
+.logo:hover{
+  color: rgb(247, 247, 247);
+  transform: rotate(2deg);
+}
+
+
+.profile header {
+  text-align: center;
+}
+
+.nav ul{
+  display: flex;
+  padding: 10px;
+  color: black;
+}
+
+.li-navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.li-navbar{
+  list-style-type: none;
+  padding: 15px;
+  font-size: 15px;
+  transition: all .6s ease 0s;
+  text-decoration: non;
+  color: black;
+
+}
+.li-navbar:hover {
+  background-color: rgb(255, 255, 255);
+  transition: .5s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 10px;
+}
+
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+.profile img {
+  width: 200px;
+ 
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  
+}
+
+.footer{
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
